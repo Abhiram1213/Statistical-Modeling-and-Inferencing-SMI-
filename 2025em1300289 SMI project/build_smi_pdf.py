@@ -42,7 +42,7 @@ class NumberedCanvas(canvas.Canvas):
         # Footer (All pages)
         page_text = f"Page {self._pageNumber} of {page_count}"
         self.drawRightString(letter[0] - 36, 25, page_text)
-        self.drawString(36, 25, "Student Name: Abhiram | Course / Subject: Statistical Modeling & Inferencing (SMI) | Status: Completed & Verified")
+        self.drawString(36, 25, "Student: Abhiram (BITS ID: 2025EM1300289) | Course: SMI | Status: Completed & Verified")
         self.setStrokeColor(colors.HexColor("#CBD5E1"))
         self.setLineWidth(0.5)
         self.line(36, 36, letter[0] - 36, 36)
@@ -175,9 +175,10 @@ def generate_report():
     story.append(Paragraph("Regression Modeling & Validation Report — Diamonds Dataset", subtitle_style))
     story.append(HRFlowable(width="100%", thickness=1.5, color=PRIMARY, spaceAfter=10))
 
-    # Executive Metadata Box (ONLY Name, Subject, Status)
+    # Executive Metadata Box
     meta_data = [
         [Paragraph("Student Name:", meta_label_style), Paragraph("<b>Abhiram</b>", meta_val_style)],
+        [Paragraph("BITS ID / Roll No:", meta_label_style), Paragraph("<b>2025EM1300289</b>", meta_val_style)],
         [Paragraph("Course / Subject:", meta_label_style), Paragraph("<b>Statistical Modeling & Inferencing (SMI)</b>", meta_val_style)],
         [Paragraph("Current Status:", meta_label_style), Paragraph("<font color='#059669'><b>Completed & Verified</b></font>", meta_val_style)]
     ]

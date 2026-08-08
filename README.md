@@ -3,6 +3,7 @@
 | Metadata Field | Value |
 | :--- | :--- |
 | **Student Name** | **Abhiram** |
+| **BITS ID / Roll No** | **2025EM1300289** |
 | **Course / Subject** | **Statistical Modeling and Inferencing (SMI)** |
 | **Current Status** | **Completed & Verified** |
 
@@ -20,13 +21,15 @@ The analysis follows the methodological guidelines of **SMI Assignment 1** and c
 
 ```
 📦 Statistical-Modeling-and-Inferencing-SMI-
- ┣ 📓 stats_assignment_new.ipynb      # Main Jupyter Notebook (full analysis)
- ┣ 📊 diamonds.csv                    # Dataset (~53,940 diamond records)
- ┣ 📄 regression_modeling_report.pdf  # Written report / summary
- ┣ 📄 TODO.pdf                        # Assignment task sheet
- ┣ 🖼️ part1_visual_profiles.png       # Data exploration visualizations
- ┣ 🖼️ part2_model_diagnostics.png     # Model diagnostic plots
- ┗ 📖 README.md                       # This file
+ ┣ 📂 2025em1300289 SMI project/              # Main Project Folder
+ ┃ ┣ 📓 2025EM1300289_SMI_Assignment.ipynb    # Main Jupyter Notebook (full analysis)
+ ┃ ┣ 📄 2025EM1300289_SMI_Assignment_Report.pdf # PDF Executive Report (embedded figures)
+ ┃ ┣ 🐍 build_smi_pdf.py                     # ReportLab PDF report generator
+ ┃ ┣ 📊 diamonds.csv                          # Dataset (~53,940 diamond records)
+ ┃ ┣ 🖼️ part1_visual_profiles.png             # Exploratory visual plots
+ ┃ ┣ 🖼️ part2_model_diagnostics.png           # OLS Model diagnostic plots
+ ┃ ┗ 📖 README.md                             # Project overview
+ ┗ 📖 README.md                               # Main repository entry point
 ```
 
 ---
